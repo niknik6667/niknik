@@ -1,3 +1,4 @@
+/* Общие стили */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Стили для header */
 header {
     background-color: #343a40;
     color: #fff;
@@ -43,11 +45,26 @@ nav a:hover {
     font-weight: bold;
 }
 
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для секции Hero */
 .hero {
     background: url('https://source.unsplash.com/1600x900/?business') no-repeat center center/cover;
     padding: 100px 20px;
     text-align: center;
-    color: #fff;
+    color: #3b5243;
 }
 
 .hero h1 {
@@ -73,6 +90,16 @@ nav a:hover {
     background-color: #0056b3;
 }
 
+.cta-button.secondary {
+    background-color: #28a745;
+    margin-left: 10px;
+}
+
+.cta-button.secondary:hover {
+    background-color: #218838;
+}
+
+/* Стили для секции услуг */
 .services {
     padding: 40px 20px;
     text-align: center;
@@ -118,6 +145,7 @@ nav a:hover {
     background-color: #218838;
 }
 
+/* Стили для футера */
 footer {
     text-align: center;
     padding: 20px;
@@ -139,3 +167,4 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+
